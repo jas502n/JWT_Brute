@@ -13,7 +13,11 @@ eyJ1c2VyIjoibmFuYSIsImFjdGlvbiI6InVwbG9hZCJ9 >> base64 decode >>  {"user":"nana"
 ```
 
 ![](./jwt_brute_success.png)
+
+## jwt io网站验证也是同样结果
+
 ![](./jwt-io.jpg)
+
 ## python usage:
 
 `python3 jwt_brute.py 4.txt `
