@@ -1,5 +1,12 @@
 # JWT_Brute
 
+![](./jwt_brute_success.png)
+
+## python usage:
+
+`python3 jwt_brute.py 4.txt `
+
+
 ```
 root@kali:~/jwt# python3 jwt_brute.py 
 
