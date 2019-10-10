@@ -1,5 +1,17 @@
 # JWT_Brute
 
+## Example
+
+`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibmFuYSIsImFjdGlvbiI6InVwbG9hZCJ9.56wwCrB9tIgmUnYpLPxkO8GYj1soCjuu_skTlbH_Gg8`
+
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 >> base64 decode >>  {"alg":"HS256","typ":"JWT"}
+
+eyJ1c2VyIjoibmFuYSIsImFjdGlvbiI6InVwbG9hZCJ9 >> base64 decode >>  {"user":"nana","action":"upload"}
+
+56wwCrB9tIgmUnYpLPxkO8GYj1soCjuu_skTlbH_Gg8 >> 需要指定key 加密得到
+```
+
 ![](./jwt_brute_success.png)
 ![](./jwt-io.jpg)
 ## python usage:
