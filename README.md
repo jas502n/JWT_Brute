@@ -24,25 +24,6 @@ eyJ1c2VyIjoibmFuYSIsImFjdGlvbiI6InVwbG9hZCJ9 >> base64 decode >>  {"user":"nana"
 
 
 ```
-root@kali:~/jwt# python3 jwt_brute.py 
-
-Usage: python jwt_brute.py dict.txt
-
-root@kali:~/jwt# tail -n 10 4.txt 
-zzzs
-zzzt
-zzzu
-zzzv
-zzzw
-zzzx
-zzzy
-zzzz
-admin
-$admin$
-
-root@kali:~/jwt# cat 4.txt |wc -l
-456978
-
 root@kali:~/jwt# python3 jwt_brute.py 4.txt 
 
 
